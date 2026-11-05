@@ -1,0 +1,17 @@
+env:
+  url: "https://www.saucedemo.com"
+  browser: "chrome"
+  headless: false
+
+timeout:
+  implicit_wait: "10s"
+  explicit_wait: "15s"
+
+default_user:
+  standard: "standard_user"
+  locked: "locked_out_user"
+  password: "secret_sauce"
+
+excel:
+  file: "../../testdata/testdata.xlsx"   # นับจากโฟลเดอร์ robot/resources
+  sheet: "TestData"

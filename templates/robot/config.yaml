@@ -1,0 +1,9 @@
+env:
+  url: "https://www.saucedemo.com"
+  headless: false
+  implicit_wait: "5s"
+  excel_file: "../testdata/testdata.xlsx"   # นับจากโฟลเดอร์ที่ไฟล์ .robot อยู่
+
+default_user:
+  username: "standard_user"
+  password: "secret_sauce"

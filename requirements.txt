@@ -1,0 +1,9 @@
+selenium
+pytest
+pytest-html
+pytest-playwright
+openpyxl
+pyyaml
+robotframework
+robotframework-seleniumlibrary
+rpaframework
